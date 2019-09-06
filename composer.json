@@ -1,0 +1,23 @@
+{
+    "name": "ggbr/services",
+    "description": "abstraçao dos serviços da API",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Gabriel Souza",
+            "email": "gabriel@vistaonline.com.br"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0",
+        "guzzlehttp/guzzle": "^6.3"
+
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload" :{
+        "psr-4":{
+            "Api\\": "src/"
+        }
+    }
+}
